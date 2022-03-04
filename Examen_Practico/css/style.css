@@ -1,0 +1,45 @@
+*
+{
+
+margin: 0;
+padding: 0;
+text-align: center;
+align-items: center;
+align-content: center;   
+
+}
+
+html, body
+{
+    background-image: url(../imagenes/interes-compuesto.jpg);
+    background-size: cover;
+    align-items: center;
+
+}
+
+table
+{
+    border: 5px;
+    border-color: black;
+    align-items: center;
+    align-content: center;
+}
+
+.tableContainer
+{
+
+    color: dimgrey;
+    align-items: center;
+    
+}
+
+.pie
+{
+    align-items: left;
+
+}
+
+.center table
+{
+    text-align: center;
+}

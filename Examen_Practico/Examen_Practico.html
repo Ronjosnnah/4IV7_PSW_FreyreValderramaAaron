@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Practico</title>
+    <script src="js/validacion.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="titleContainer">
+        <header>
+
+            <h1> Examen Practico  </h1>
+            <h2> Calculadora de interes compuesto </h2>
+
+        </header>
+    </div>
+
+    <div class="tableContainer">
+        <section>
+            <form method="get"  name="formulario" onsubmit="return validar(this)" action="">
+                <table border="5px" id="formulario">
+
+                <tbody>
+                    <tr>
+                        <td> Valor del automovil. </td>
+                        <td> Cuota inicial a pagar. </td>
+                        <td> Periodo (Numero de meses en que se liquidara el pago del automovil). </td>
+                        <td> Interes al que se pagara el automovil. </td>
+                        <td> Cuota: Pago fijo mesual </td>
+                    </tr>
+                </tbody>
+
+                <tr>
+                    <td> <input type="number" name="Valor_automovil" id="Valor_automovil"> </td>
+                    <td> <input type="number" name="Cuota_inicial" id="Cuota_inicial"> </td>
+                    <td> 
+                        <select name="Periodo" id="Periodo"> 
+                            <option selected value = 3> 3 meses </option>
+                            <option value = 6> 6 meses </option>
+                            <option value = 9> 9 meses </option>
+                            <option value = 12> 12 meses </option>
+                            <option value = 18> 18 meses </option>
+                        </select> 
+                    </td>
+<!---               <td> <input type="" name="Interes" id="Interes">  </td> --->
+                    <td> <input type="number" name="Interes" id="Interes" readonly>   </td>
+                    <td>  </td>
+                </tr>
+
+            </table>
+
+            <input type="submit" name="enviar" value="Enviar Datos">
+            <br>
+    
+            <input type="reset" name="borrar" value="Borrar Datos">
+            
+        </form>
+    </section>
+    </div>
+
+    <footer>
+
+        <div class="pie">
+            <h3> Freyre Valderrama Aarón</h3>
+
+            <h3> Grupo : 4IV7</h3>
+
+            <h3> Materia: Programacion y sevicios web </h3>
+
+            <h3> Profesor: Jaime Minor Gomez </h3> 
+
+            <a href="../index.html"> Regresar a principal </a>
+        </div>
+
+    </footer>
+    
+
+</body>
+</html>
