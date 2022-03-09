@@ -1,0 +1,88 @@
+@keyframes anima_cion{
+    from{
+        background-color: rgb(236, 222, 18);
+    }
+    to{
+        background-color: rgb(221, 12, 240);
+    }
+}
+
+@keyframes animacion1{
+    from{
+        background-color: rgba(46, 171, 230, 0.678);
+    }
+    to{
+        background-color: rgba(19, 0, 192, 0.89);
+    }
+}
+
+body
+{
+    height: auto;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1568390402787-GOHT4CR5ZC2CS7106V7L/videojuegos+en+la+academia.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: large;
+}
+
+article
+{
+    text-align: center;
+}
+
+footer
+{
+    text-align: center;
+}
+.button img
+{
+float: left;
+width: 50px;
+height: 40px;
+}
+
+.anim
+{
+    width: 70%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion 5s alternate infinite;
+    font-size: large;
+    border: 120px;
+    border-radius: 30px;
+}
+
+.anim img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.anim-2 img
+{
+width: 400px;
+height: 150px;
+}
+
+.animacion1
+{
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion1 5s alternate infinite;
+    border-radius: 50px;
+}
+
+.ultim{
+    color: black;
+}

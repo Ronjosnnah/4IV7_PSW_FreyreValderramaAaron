@@ -1,0 +1,52 @@
+@keyframes anima_cion{
+    from{
+        background-color: rgb(236, 222, 18);
+    }
+    to{
+        background-color: rgb(221, 12, 240);
+    }
+}
+
+body
+{
+    height: auto;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/53aadf1de4b0a0a817640cca/1568390402787-GOHT4CR5ZC2CS7106V7L/videojuegos+en+la+academia.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: large;
+}
+
+.anim
+{
+    width: 70%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion 5s alternate infinite;
+    font-size: large;
+    border: 120px;
+    border-radius: 30px;
+}
+
+.clase button
+{
+    width: 250px;
+    height: 20px;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.button img
+{
+    float: left;
+    width: 50px;
+    height: 40px;
+}

@@ -1,0 +1,35 @@
+@keyframes anima_cion{
+    from{
+        background-color: rgb(236, 222, 18);
+    }
+    to{
+        background-color: rgb(221, 12, 240);
+    }
+}
+
+.anim
+{
+    width: 70%;
+    background-color: rgba(red, green, blue, alpha);
+    color: white;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    animation: anima_cion 5s alternate infinite;
+    font-size: large;
+    border: 120px;
+    border-radius: 30px;
+}
+
+footer
+{
+    text-align: center;
+}
+
+.button img
+{
+    float: left;
+    width: 50px;
+    height: 40px;
+}
