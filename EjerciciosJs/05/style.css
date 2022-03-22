@@ -1,0 +1,28 @@
+*{
+    background-image: url('05.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(0, 173, 135);
+    font-size: 60px;
+    
+}
+
+.totalH{
+    width: 18%;
+}
+.totalM{
+    width: 18%;
+}
+
+.MAN{
+    width: 18%;
+}
+
+.WOMAN{
+    width: 18%;
+}

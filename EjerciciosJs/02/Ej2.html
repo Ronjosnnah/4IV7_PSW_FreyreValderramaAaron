@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <center><h1>SUELDO DEL VENDEDOR</h1></center>
+    <form method="get" name="formulario" id="forms" >
+        <br>
+            <center><input class="sueldo" type="text" name="dinero" id="dinero" placeholder="Ingrese su sueldo base: " required></center>
+        <br>
+            <center><input class="venta" type="text" name="venta1" id="venta1" placeholder="Ingrese el monto de la venta 1: " required></center>
+        <br>
+            <center><input class="venta" type="text" name="venta2" id="venta2" placeholder="Ingrese el monto de la venta 2: " required></center>
+        <br>
+            <center><input class="venta" type="text" name="venta3" id="venta3" placeholder="Ingrese el monto de la venta 3: " required></center>
+        <br>
+        <center><input  type="button" id="btn" name="btn" value="Enviar" onclick="leerValores()"></center>
+        <center><pre class='comision'id="comision">Esperando datos...</pre></center>
+        <br>
+        <center><pre class='pago'id="pago"></pre></center>
+        <br>
+        <br>
+        
+
+    </form>
+
+    <script src="Ej2.js"></script>
+</body>
+</html>

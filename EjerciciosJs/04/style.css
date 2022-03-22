@@ -1,0 +1,28 @@
+*
+{
+    background-image: url("04.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1
+{
+    font-family: sans-serif;
+    color: rgb(173, 0, 0);
+    font-size: 60px;    
+}
+
+.par
+{
+    width: 18%;
+}
+.examen
+{
+    width: 18%;
+}
+
+.tFinal
+{
+    width: 18%;
+}
