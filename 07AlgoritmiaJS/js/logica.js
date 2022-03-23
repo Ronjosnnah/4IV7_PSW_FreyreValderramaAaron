@@ -1,4 +1,67 @@
+//Problema 1
 
+function problema1()
+{
+    var cadena = document.getElementById('p1-input').value;
+    var caracteres = cadena.split("");
+    var cadena_nueva = ""
+
+    for (i = (caracteres.length - 1); i > -1; i--)
+    {
+        cadena_nueva += caracteres[i]
+    }
+
+    document.querySelector('#p1-output').textContent = cadena_nueva;
+
+}
+
+// Problema 2
+
+function problema2()
+{
+
+    var validar = /^[0-9.]+$/;
+
+    var x1 = parseFloat(document.getElementById("p2-x1").value);
+    var x2 = parseFloat(document.getElementById("p2-x2").value);
+    var x3 = parseFloat(document.getElementById("p2-x3").value);
+    var x4 = parseFloat(document.getElementById("p2-x4").value);
+    var x5 = parseFloat(document.getElementById("p2-x5").value);
+
+    var y1 = parseFloat(document.getElementById("p2-y1").value);
+    var y2 = parseFloat(document.getElementById("p2-y2").value);
+    var y3 = parseFloat(document.getElementById("p2-y3").value);
+    var y4 = parseFloat(document.getElementById("p2-y4").value);
+    var y5 = parseFloat(document.getElementById("p2-y5").value);
+
+    var xp1 = document.getElementById("p2-x1").value;
+    var xp2 = document.getElementById("p2-x2").value;
+    var xp3 = document.getElementById("p2-x3").value;
+    var xp4 = document.getElementById("p2-x4").value;
+    var xp5 = document.getElementById("p2-x5").value;
+
+    var yp1 = document.getElementById("p2-y1").value;
+    var yp2 = document.getElementById("p2-y2").value;
+    var yp3 = document.getElementById("p2-y3").value;
+    var yp4 = document.getElementById("p2-y4").value;
+    var yp5 = document.getElementById("p2-y5").value;
+
+
+    if (xp1 == "" || xp2 == "" || xp3 == "" || xp4 == "" || xp5 == "" || yp1 == "" ||  yp2 == "" || yp3 == "" || yp4 == "" || yp5 == "")
+    {
+        alert ("Ingrese todos los datos");
+    }
+    else if (xp1.match(validar) && yp1.match(validar) && xp2.match(validar) && yp2.match(validar) && xp3.match(validar) && yp3.match(validar) && xp4.match(validar) && yp4.match(validar) && xp5.match(validar) && yp5.match(validar))
+    {
+        var pEscalar = (x1*y1) + (x2*y2) + (x3*y3) + (x4*y4) + (x5*y5);
+         document.getElementById('p2-output').textContent = "El valor del producto escalar es: " + pEscalar;
+    }
+    else
+    {
+        alert ("Solo numeros")
+    }
+
+}
 
 //Problema 3
 
